@@ -25,8 +25,8 @@ Of course please give some issue updates that you will encounter while using it.
 
 now please go to: :point_down::point_down::point_down:
 
-https://conduit1311.github.io/LostArkList/
+https://conduit1311.github.io/LostArktodo/
 
-https://conduit1311.github.io/LostArkList/
+https://conduit1311.github.io/LostArktodo/
 
-https://conduit1311.github.io/LostArkList/
+https://conduit1311.github.io/LostArktodo/
