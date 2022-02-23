@@ -44,7 +44,6 @@ export class ArkService {
   checkcurrentDate(resetDate: string, resetTime: string) {
     this.tabs.forEach((character) => {
       //TODO: Zeitzone berücksichtigen
-      character.date = moment().add(1, "days");
 
       let minutes = moment().diff(
         moment(moment(character.date).format("YYYY-MM-DD") + " " + resetTime),
@@ -66,8 +65,7 @@ export class ArkService {
             this.resetCheckbox(list);
           }
         });
-        //character.date
-
+        character.date = moment().add(1, "days");
         this.save();
       }
     });
