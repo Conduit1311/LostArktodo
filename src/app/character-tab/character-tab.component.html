@@ -1,0 +1,33 @@
+<div fxLayout="row" fxLayoutAlign="center start" fxLayoutGap="2rem">
+
+  <mat-selection-list fxLayout="column" *ngFor="let character of characters.list">
+
+    <mat-list-item>
+      <div>
+        <span>{{characters.name}} reset</span>
+        <button mat-icon-button (click)="resetCheckbox(character)">
+          <mat-icon>restart_alt</mat-icon>
+        </button>
+      </div>
+      <div fxLayoutAlign="center end">
+        <button mat-icon-button (click)="checkAll(character)">
+          check all
+          <mat-icon>done</mat-icon>
+        </button>
+      </div>
+    </mat-list-item>
+
+    <mat-list-item *ngFor=" let task of character">
+      <mat-checkbox [(ngModel)]="task.checked" (change)="save()"></mat-checkbox>
+      <img mat-list-icon [src]="task.image" (click)="openDialog(task)">
+      <div mat-line (click)="openDialog(task)">
+        {{task.title}}
+      </div>
+      <mat-chip-list mat-line>
+        <mat-chip color="primary" selected *ngFor=" let chip of task.details">
+          {{getDetails(chip)}}
+        </mat-chip>
+      </mat-chip-list>
+    </mat-list-item>
+  </mat-selection-list>
+</div>
