@@ -61,7 +61,6 @@ export class AppComponent implements OnInit {
       reader.onload = (e: any) => {
         this.getArkData.tabs = JSON.parse(e.target.result);
         localStorage.setItem('lostark', e.target.result);
-        console.log(e.target.result);
       }
     }
 

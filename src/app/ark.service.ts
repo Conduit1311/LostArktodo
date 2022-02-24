@@ -14,11 +14,10 @@ export class ArkService {
   dailyString: string = "";
 
   constructor(private http: HttpClient) {
-    this.countdownWeeklys();
-
+    this.countdown();
   }
 
-  countdownWeeklys() {
+  countdown() {
     const x = setInterval(() => {
       const nextReset = moment().isoWeekday(4);
       const format = nextReset.format("YYYY-MM-DD");
@@ -43,7 +42,7 @@ export class ArkService {
 
   checkcurrentDate(resetDate: string, resetTime: string) {
     this.tabs.forEach((character) => {
-      //TODO: Zeitzone berücksichtigen
+      //TODO: zimezone missing
 
       let minutes = moment().diff(
         moment(moment(character.date).format("YYYY-MM-DD") + " " + resetTime),
@@ -51,7 +50,7 @@ export class ArkService {
       );
 
       if (minutes >= 0) {
-        resetDate = "2022-02-25";
+        resetDate = "2022-02-22";
 
         let weeklyMinutes = moment(resetDate + " " + resetTime).diff(
           moment(moment(character.date).format("YYYY-MM-DD") + " " + resetTime),
