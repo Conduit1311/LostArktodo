@@ -23,10 +23,10 @@ export enum TypeOfList {
 }
 
 export enum LostArkDetails {
-    'lvl.302',
-    'lvl.420',
-    'lvl.460',
-    'lvl.1350',
+   'ilvl.302',
+    'ilvl.420',
+    'ilvl.460',
+    'ilvl.1350',
     'Once per Char',
     '5 per day',
     'Once per day',
@@ -39,5 +39,8 @@ export enum LostArkDetails {
     'On weekly reset',
     'Per Boss',
     '3 per Week',
-    'Per Abyss'
+    'Per Abyss',
+    'ilvl.250',
+    'ilvl.340',
+    'lvl.50'
 }

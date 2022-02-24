@@ -92,49 +92,49 @@
   "type": 2,
   "title": "Chaos Dungeon 1",
   "checked": false,
-  "details": [9],
+  "details": [17,9],
   "description":"Uses 50 Energy per run. Gain 100 Energy per day. Energy restored per Character.",
   "image":"./assets/image/dungeon.png"
 }, {
   "type": 2,
   "title": "Chaos Dungeon 2",
   "checked": false,
-  "details": [9],
+  "details": [17,9],
   "description":"Uses 50 Energy per run. Gain 100 Energy per day. Energy restored per Character.",
   "image":"./assets/image/dungeon.png"
 }, {
   "type": 2,
   "title": "Guardian Raid 1",
   "checked": false,
-  "details": [9],
+  "details": [0,9],
   "description":"Uses 1 Guardian Soul per harvest. Gain 2 Guardian Souls per day.",
   "image":"./assets/image/raid.png"
 }, {
   "type": 2,
   "title": "Guardian Raid 2",
   "checked": false,
-  "details": [9],
+  "details": [0,9],
   "description":"Uses 1 Guardian Soul per harvest. Gain 2 Guardian Souls per day.",
   "image":"./assets/image/raid.png"
 }, {
   "type": 2,
   "title": "Una Daily 1",
   "checked": false,
-  "details": [10],
+  "details": [19,10],
   "description":"3 Una tasks per day. Can be expanded up to +3.",
   "image":"./assets/image/dayli.png"
 }, {
   "type": 2,
   "title": "Una Daily 2",
   "checked": false,
-  "details": [10],
+  "details": [19,10],
   "description":"3 Una tasks per day. Can be expanded up to +3.",
   "image":"./assets/image/dayli.png"
 }, {
   "type": 2,
   "title": "Una Daily 3",
   "checked": false,
-  "details": [10],
+  "details": [19,10],
   "description":"3 Una tasks per day. Can be expanded up to +3.",
   "image":"./assets/image/dayli.png"
 }, {
@@ -176,21 +176,21 @@
   "type": 3,
   "title": "Abyss Dungeon 1",
   "checked": false,
-  "details": [12],
+  "details": [18,12],
   "description": "3 per week per Abyss Dungeon. Availability is per character.You can only complete one difficulty per week.",
   "image":"./assets/image/abyss.png"
 }, {
   "type": 3,
   "title": "Abyss Dungeon 2",
   "checked": false,
-  "details": [12],
+  "details": [18,12],
   "description": "3 per week per Abyss Dungeon. Availability is per character.You can only complete one difficulty per week.",
   "image":"./assets/image/abyss.png"
 }, {
   "type": 3,
   "title": "Abyss Dungeon 3",
   "checked": false,
-  "details": [12],
+  "details": [18,12],
   "description": "3 per week per Abyss Dungeon. Availability is per character.You can only complete one difficulty per week.",
   "image":"./assets/image/abyss.png"
 }, {

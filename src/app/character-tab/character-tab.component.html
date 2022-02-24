@@ -2,19 +2,17 @@
 
   <mat-selection-list fxLayout="column" *ngFor="let character of characters.list">
 
-    <mat-list-item>
-      <div>
-        <span>{{characters.name}} reset</span>
-        <button mat-icon-button (click)="resetCheckbox(character)">
-          <mat-icon>restart_alt</mat-icon>
-        </button>
-      </div>
-      <div fxLayoutAlign="center end">
-        <button mat-icon-button (click)="checkAll(character)">
-          check all
-          <mat-icon>done</mat-icon>
-        </button>
-      </div>
+    <mat-list-item  fxLayoutAlign="end">
+      <button mat-button (click)="resetCheckbox(character)">
+        reset
+        <mat-icon>restart_alt</mat-icon>
+      </button>
+      
+      
+      <button mat-button (click)="checkAll(character)">
+        check all
+        <mat-icon>done</mat-icon>
+      </button>
     </mat-list-item>
 
     <mat-list-item *ngFor=" let task of character">

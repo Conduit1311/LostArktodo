@@ -51,7 +51,7 @@ export class ArkService {
       );
 
       if (minutes >= 0) {
-        resetDate = "2022-02-22";
+        resetDate = "2022-02-25";
 
         let weeklyMinutes = moment(resetDate + " " + resetTime).diff(
           moment(moment(character.date).format("YYYY-MM-DD") + " " + resetTime),
